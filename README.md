@@ -1,2 +1,4 @@
 # ML_Wine_Prediction
-This project uses three different machine learning algorithms to predict whether wine is good or bad. Pandas and sklearn are utilized extensively.
+This project uses three different machine learning algorithms to analyze the data set https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009. This dataset includes 11 feature variables to predict the quality of a given red wine. However, due to imbalance in the dataset, this project predicts if the wine is good (wine quality > 5.5) or bad (wine quality < 5.5). Pandas and sklearn are utilized extensively in this project.
+
+The three different machine learning algorithms used in this project are support vector machines, logistic regression, and neural networks. Each algorithm was run on the data multiple times using different parameters. Information about the accuracies of each algorithm when run with different parameters was saved to a csv file. The optimal combination of parameters for each algorithm was determined based on the test accuracy produced, and a confusion matrix was constructed for the best algorithm.
